@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 
 #define PIN 0
-#define STRIPSIZE 11 // Limited by max 256 bytes ram. At 3 bytes/LED you get max ~85 pixels
+#define STRIPSIZE 2 // Limited by max 256 bytes ram. At 3 bytes/LED you get max ~85 pixels
 
 // Parameter 1 = number of pixels in strip
 // Parameter 2 = pin number (most are valid)
@@ -14,12 +14,12 @@ Adafruit_NeoPixel strip = Adafruit_NeoPixel(STRIPSIZE, PIN, NEO_GRB + NEO_KHZ800
 
 void setup() {
   strip.begin();
-  strip.setBrightness(10); // set accordingly
+  strip.setBrightness(150); // set accordingly
   strip.show(); // Initialize all pixels to 'off'
 }
 
 void loop() {
-  flameFlicker();
+  rainbow(10);
 }
 
 // Fill the dots one after the other with a color
