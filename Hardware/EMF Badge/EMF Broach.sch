@@ -7316,7 +7316,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
-<part name="GND13" library="SparkFun" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="9V_BATT" library="con-amp-quick" deviceset="M02" device="" value="DNP"/>
 <part name="R1" library="adafruit" deviceset="R-US_" device="R0603" value="470"/>
@@ -7325,20 +7324,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP1_LED_DO" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-17" package3d_urn="urn:adsk.eagle:package:27949/1"/>
 <part name="NEO_12" library="adafruit" deviceset="WS2812B" device="5050" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" override_locally_modified="yes" value="WS2812B5050"/>
 <part name="C12" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="GND14" library="SparkFun" deviceset="GND" device=""/>
 <part name="NEO_13" library="adafruit" deviceset="WS2812B" device="5050" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" override_locally_modified="yes" value="WS2812B5050"/>
 <part name="C13" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="GND15" library="SparkFun" deviceset="GND" device=""/>
 <part name="NEO_14" library="adafruit" deviceset="WS2812B" device="5050" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" override_locally_modified="yes" value="WS2812B5050"/>
 <part name="C14" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="GND16" library="SparkFun" deviceset="GND" device=""/>
 <part name="NEO_15" library="adafruit" deviceset="WS2812B" device="5050" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" override_locally_modified="yes" value="WS2812B5050"/>
 <part name="C15" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="GND17" library="SparkFun" deviceset="GND" device=""/>
 <part name="NEO_16" library="adafruit" deviceset="WS2812B" device="5050" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" override_locally_modified="yes" value="WS2812B5050"/>
 <part name="C16" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="GND18" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND19" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND13" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND14" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND15" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND16" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND17" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND18" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7447,9 +7447,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND12" gate="1" x="99.06" y="88.9" smashed="yes">
 <attribute name="VALUE" x="96.52" y="86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="GND13" gate="1" x="127" y="88.9" smashed="yes">
-<attribute name="VALUE" x="124.46" y="86.36" size="1.778" layer="96"/>
-</instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
@@ -7478,43 +7475,46 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="155.956" y="97.155" size="1.778" layer="95"/>
 <attribute name="VALUE" x="155.956" y="92.329" size="1.778" layer="96"/>
 </instance>
-<instance part="GND14" gate="1" x="154.94" y="88.9" smashed="yes">
-<attribute name="VALUE" x="152.4" y="86.36" size="1.778" layer="96"/>
-</instance>
 <instance part="NEO_13" gate="G$1" x="170.18" y="86.36" smashed="yes"/>
 <instance part="C13" gate="G$1" x="182.88" y="96.52" smashed="yes">
 <attribute name="NAME" x="183.896" y="97.155" size="1.778" layer="95"/>
 <attribute name="VALUE" x="183.896" y="92.329" size="1.778" layer="96"/>
-</instance>
-<instance part="GND15" gate="1" x="182.88" y="88.9" smashed="yes">
-<attribute name="VALUE" x="180.34" y="86.36" size="1.778" layer="96"/>
 </instance>
 <instance part="NEO_14" gate="G$1" x="198.12" y="86.36" smashed="yes"/>
 <instance part="C14" gate="G$1" x="210.82" y="96.52" smashed="yes">
 <attribute name="NAME" x="211.836" y="97.155" size="1.778" layer="95"/>
 <attribute name="VALUE" x="211.836" y="92.329" size="1.778" layer="96"/>
 </instance>
-<instance part="GND16" gate="1" x="210.82" y="88.9" smashed="yes">
-<attribute name="VALUE" x="208.28" y="86.36" size="1.778" layer="96"/>
-</instance>
 <instance part="NEO_15" gate="G$1" x="226.06" y="86.36" smashed="yes"/>
 <instance part="C15" gate="G$1" x="238.76" y="96.52" smashed="yes">
 <attribute name="NAME" x="239.776" y="97.155" size="1.778" layer="95"/>
 <attribute name="VALUE" x="239.776" y="92.329" size="1.778" layer="96"/>
-</instance>
-<instance part="GND17" gate="1" x="238.76" y="88.9" smashed="yes">
-<attribute name="VALUE" x="236.22" y="86.36" size="1.778" layer="96"/>
 </instance>
 <instance part="NEO_16" gate="G$1" x="254" y="86.36" smashed="yes"/>
 <instance part="C16" gate="G$1" x="266.7" y="96.52" smashed="yes">
 <attribute name="NAME" x="267.716" y="97.155" size="1.778" layer="95"/>
 <attribute name="VALUE" x="267.716" y="92.329" size="1.778" layer="96"/>
 </instance>
-<instance part="GND18" gate="1" x="266.7" y="88.9" smashed="yes">
-<attribute name="VALUE" x="264.16" y="86.36" size="1.778" layer="96"/>
-</instance>
 <instance part="GND19" gate="1" x="71.12" y="71.12" smashed="yes">
 <attribute name="VALUE" x="68.58" y="68.58" size="1.778" layer="96"/>
+</instance>
+<instance part="GND13" gate="1" x="127" y="86.36" smashed="yes">
+<attribute name="VALUE" x="124.46" y="83.82" size="1.778" layer="96"/>
+</instance>
+<instance part="GND14" gate="1" x="154.94" y="86.36" smashed="yes">
+<attribute name="VALUE" x="152.4" y="83.82" size="1.778" layer="96"/>
+</instance>
+<instance part="GND15" gate="1" x="182.88" y="86.36" smashed="yes">
+<attribute name="VALUE" x="180.34" y="83.82" size="1.778" layer="96"/>
+</instance>
+<instance part="GND16" gate="1" x="210.82" y="86.36" smashed="yes">
+<attribute name="VALUE" x="208.28" y="83.82" size="1.778" layer="96"/>
+</instance>
+<instance part="GND17" gate="1" x="238.76" y="86.36" smashed="yes">
+<attribute name="VALUE" x="236.22" y="83.82" size="1.778" layer="96"/>
+</instance>
+<instance part="GND18" gate="1" x="266.7" y="86.36" smashed="yes">
+<attribute name="VALUE" x="264.16" y="83.82" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -7605,10 +7605,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C11" gate="G$1" pin="2"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="9V_BATT" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="210.82" x2="93.98" y2="200.66" width="0.1524" layer="91"/>
 <label x="93.98" y="200.66" size="1.778" layer="95" rot="R270" xref="yes"/>
@@ -7618,37 +7614,61 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C12" gate="G$1" pin="2"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C13" gate="G$1" pin="2"/>
-<pinref part="GND15" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C14" gate="G$1" pin="2"/>
-<pinref part="GND16" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C15" gate="G$1" pin="2"/>
-<pinref part="GND17" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C16" gate="G$1" pin="2"/>
-<pinref part="GND18" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="NEO_9" gate="G$1" pin="GND"/>
-<pinref part="NEO_11" gate="G$1" pin="GND"/>
-<junction x="114.3" y="76.2"/>
 <pinref part="NEO_10" gate="G$1" pin="GND"/>
-<junction x="86.36" y="76.2"/>
-<wire x1="86.36" y1="76.2" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="71.12" y1="76.2" x2="55.88" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="73.66" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 <label x="63.5" y="76.2" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="NEO_11" gate="G$1" pin="GND"/>
+<wire x1="86.36" y1="76.2" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="NEO_12" gate="G$1" pin="GND"/>
+<wire x1="142.24" y1="76.2" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="NEO_13" gate="G$1" pin="GND"/>
+<wire x1="142.24" y1="76.2" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="NEO_14" gate="G$1" pin="GND"/>
+<wire x1="170.18" y1="76.2" x2="198.12" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="NEO_15" gate="G$1" pin="GND"/>
+<wire x1="198.12" y1="76.2" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="NEO_16" gate="G$1" pin="GND"/>
+<wire x1="226.06" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
+<label x="238.76" y="71.12" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="127" y1="88.9" x2="127" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="154.94" y1="88.9" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
+<label x="157.48" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="182.88" y1="88.9" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
+<label x="185.42" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+<wire x1="210.82" y1="88.9" x2="210.82" y2="91.44" width="0.1524" layer="91"/>
+<label x="210.82" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="238.76" y1="88.9" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
+<label x="238.76" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="266.7" y1="88.9" x2="266.7" y2="91.44" width="0.1524" layer="91"/>
+<label x="266.7" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -7713,6 +7733,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="271.78" y1="144.78" x2="279.4" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="144.78" x2="279.4" y2="142.24" width="0.1524" layer="91"/>
+<label x="76.2" y="144.78" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="NEO_9" gate="G$1" pin="VDD"/>
@@ -7737,6 +7758,43 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="60.96" y1="101.6" x2="40.64" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="5V"/>
 <label x="45.72" y="101.6" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="NEO_12" gate="G$1" pin="VDD"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="99.06" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="101.6" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="NEO_14" gate="G$1" pin="VDD"/>
+<wire x1="175.26" y1="101.6" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="NEO_13" gate="G$1" pin="VDD"/>
+<junction x="175.26" y="101.6"/>
+<wire x1="182.88" y1="101.6" x2="203.2" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="101.6" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="101.6" x2="175.26" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="99.06" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
+<junction x="154.94" y="101.6"/>
+<junction x="182.88" y="101.6"/>
+<pinref part="NEO_15" gate="G$1" pin="VDD"/>
+<junction x="231.14" y="101.6"/>
+<wire x1="228.6" y1="101.6" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="101.6" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="99.06" x2="210.82" y2="101.6" width="0.1524" layer="91"/>
+<label x="213.36" y="106.68" size="1.778" layer="95" rot="R180"/>
+<wire x1="203.2" y1="101.6" x2="210.82" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="NEO_16" gate="G$1" pin="VDD"/>
+<junction x="259.08" y="101.6"/>
+<wire x1="254" y1="101.6" x2="259.08" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="101.6" x2="259.08" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="99.06" x2="238.76" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="99.06" x2="266.7" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="101.6" x2="259.08" y2="101.6" width="0.1524" layer="91"/>
+<label x="243.84" y="106.68" size="1.778" layer="95" rot="R180"/>
+<label x="274.32" y="101.6" size="1.778" layer="95" rot="R180"/>
+<junction x="266.7" y="101.6"/>
+<wire x1="231.14" y1="101.6" x2="238.76" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -7883,93 +7941,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="279.4" y="124.46" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="5V1" class="0">
-<segment>
-<pinref part="NEO_12" gate="G$1" pin="VDD"/>
-<junction x="147.32" y="101.6"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="99.06" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="101.6" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="101.6" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="NEO_12" gate="G$1" pin="GND"/>
-<junction x="142.24" y="76.2"/>
-<wire x1="111.76" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="NEO_12" gate="G$1" pin="DI"/>
 <pinref part="NEO_11" gate="G$1" pin="DO"/>
 <wire x1="129.54" y1="83.82" x2="127" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="NEO_13" gate="G$1" pin="GND"/>
-<junction x="170.18" y="76.2"/>
-<wire x1="137.16" y1="76.2" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="5V3" class="0">
-<segment>
-<pinref part="NEO_14" gate="G$1" pin="VDD"/>
-<wire x1="175.26" y1="101.6" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="NEO_13" gate="G$1" pin="VDD"/>
-<junction x="175.26" y="101.6"/>
-<wire x1="182.88" y1="101.6" x2="203.2" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="101.6" x2="175.26" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="99.06" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="NEO_14" gate="G$1" pin="GND"/>
-<junction x="198.12" y="76.2"/>
-<wire x1="162.56" y1="76.2" x2="198.12" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="5V4" class="0">
-<segment>
-<pinref part="NEO_15" gate="G$1" pin="VDD"/>
-<junction x="231.14" y="101.6"/>
-<wire x1="228.6" y1="101.6" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="101.6" x2="210.82" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="101.6" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="99.06" x2="210.82" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="NEO_15" gate="G$1" pin="GND"/>
-<junction x="226.06" y="76.2"/>
-<wire x1="187.96" y1="76.2" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="5V5" class="0">
-<segment>
-<pinref part="NEO_16" gate="G$1" pin="VDD"/>
-<junction x="259.08" y="101.6"/>
-<wire x1="254" y1="101.6" x2="259.08" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="101.6" x2="238.76" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="101.6" x2="259.08" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="99.06" x2="238.76" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="99.06" x2="266.7" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="101.6" x2="259.08" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="NEO_16" gate="G$1" pin="GND"/>
-<junction x="254" y="76.2"/>
-<wire x1="213.36" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
