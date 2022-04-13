@@ -7296,17 +7296,17 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="NEO_1" library="adafruit" deviceset="WS2812B" device="5050" override_package3d_urn="urn:adsk.eagle:package:12850278/2" override_package_urn="urn:adsk.eagle:footprint:12850279/1" override_locally_modified="yes" value="WS2812B5050"/>
 <part name="NEO_6" library="adafruit" deviceset="WS2812B" device="5050" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" override_locally_modified="yes" value="WS2812B5050"/>
 <part name="NEO_11" library="adafruit" deviceset="WS2812B" device="5050" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" override_locally_modified="yes" value="WS2812B5050"/>
-<part name="C1" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="C2" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="C3" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="C4" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="C5" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="C6" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="C7" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="C8" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="C9" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="C10" library="adafruit" deviceset="C-US" device="C0603"/>
-<part name="C11" library="adafruit" deviceset="C-US" device="C0603"/>
+<part name="C1" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C2" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C3" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C4" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C5" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C6" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C7" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C8" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C9" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C10" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C11" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
@@ -7323,15 +7323,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$2" library="SparkFun" deviceset="5V" device=""/>
 <part name="TP1_LED_DO" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-17" package3d_urn="urn:adsk.eagle:package:27949/1"/>
 <part name="NEO_12" library="adafruit" deviceset="WS2812B" device="5050" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" override_locally_modified="yes" value="WS2812B5050"/>
-<part name="C12" library="adafruit" deviceset="C-US" device="C0603"/>
+<part name="C12" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="NEO_13" library="adafruit" deviceset="WS2812B" device="5050" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" override_locally_modified="yes" value="WS2812B5050"/>
-<part name="C13" library="adafruit" deviceset="C-US" device="C0603"/>
+<part name="C13" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="NEO_14" library="adafruit" deviceset="WS2812B" device="5050" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" override_locally_modified="yes" value="WS2812B5050"/>
-<part name="C14" library="adafruit" deviceset="C-US" device="C0603"/>
+<part name="C14" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="NEO_15" library="adafruit" deviceset="WS2812B" device="5050" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" override_locally_modified="yes" value="WS2812B5050"/>
-<part name="C15" library="adafruit" deviceset="C-US" device="C0603"/>
+<part name="C15" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="NEO_16" library="adafruit" deviceset="WS2812B" device="5050" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" override_locally_modified="yes" value="WS2812B5050"/>
-<part name="C16" library="adafruit" deviceset="C-US" device="C0603"/>
+<part name="C16" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="GND19" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
@@ -7634,6 +7634,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="NEO_16" gate="G$1" pin="GND"/>
 <wire x1="226.06" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
 <label x="238.76" y="71.12" size="1.778" layer="95" rot="R90"/>
+<junction x="86.36" y="76.2"/>
+<junction x="71.12" y="76.2"/>
+<junction x="114.3" y="76.2"/>
+<junction x="142.24" y="76.2"/>
+<junction x="170.18" y="76.2"/>
+<junction x="198.12" y="76.2"/>
+<junction x="226.06" y="76.2"/>
+<junction x="254" y="76.2"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
@@ -7734,6 +7742,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="144.78" x2="279.4" y2="142.24" width="0.1524" layer="91"/>
 <label x="76.2" y="144.78" size="1.778" layer="95" rot="R90"/>
+<junction x="271.78" y="144.78"/>
 </segment>
 <segment>
 <pinref part="NEO_9" gate="G$1" pin="VDD"/>
@@ -7795,6 +7804,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="266.7" y="101.6"/>
 <wire x1="231.14" y1="101.6" x2="238.76" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="127" y1="101.6" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
+<junction x="238.76" y="101.6"/>
+<junction x="210.82" y="101.6"/>
+<junction x="127" y="101.6"/>
+<junction x="203.2" y="101.6"/>
+<junction x="147.32" y="101.6"/>
 </segment>
 </net>
 <net name="N$19" class="0">

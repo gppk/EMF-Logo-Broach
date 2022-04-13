@@ -2244,41 +2244,29 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="Elecrow_2-layer_PCB_eagle_rule">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<designrules name="jlcpcb2layer">
+<description language="en">&lt;b&gt;JLCPCB Design Rules by Jaap de Dood&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.</description>
-<description language="zh">&lt;b&gt;Elecrow PCB EAGLE Design Rules&lt;/b&gt;
-</description>
+Please make sure your boards conform to these design rules.
+&lt;/p&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.6mm 1.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="8mil"/>
-<param name="mdSmdPad" value="0mil"/>
-<param name="mdSmdVia" value="0mil"/>
-<param name="mdSmdSmd" value="0mil"/>
+<param name="mtCopper" value="0.035559375mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035559375mm"/>
+<param name="mtIsolate" value="1.6mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
+<param name="mdWireWire" value="5mil"/>
+<param name="mdWirePad" value="5mil"/>
+<param name="mdWireVia" value="5mil"/>
+<param name="mdPadPad" value="5mil"/>
+<param name="mdPadVia" value="5mil"/>
+<param name="mdViaVia" value="5mil"/>
+<param name="mdSmdPad" value="5mil"/>
+<param name="mdSmdVia" value="5mil"/>
+<param name="mdSmdSmd" value="5mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="20mil"/>
-<param name="mdDrill" value="10mil"/>
+<param name="mdCopperDimension" value="8mil"/>
+<param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
+<param name="msWidth" value="5mil"/>
 <param name="msDrill" value="12mil"/>
 <param name="msMicroVia" value="12mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
@@ -2289,32 +2277,32 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="6mil"/>
+<param name="rlMinPadTop" value="5mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="6mil"/>
+<param name="rlMinPadInner" value="5mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="6mil"/>
+<param name="rlMinPadBottom" value="5mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="6mil"/>
+<param name="rlMinViaOuter" value="3mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="6mil"/>
+<param name="rlMinViaInner" value="3mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMinMicroViaOuter" value="3mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMinMicroViaInner" value="3mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
-<param name="psFirst" value="0"/>
+<param name="psFirst" value="-1"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="0mil"/>
-<param name="mlMaxStopFrame" value="0mil"/>
+<param name="mlMinStopFrame" value="2.5mil"/>
+<param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="100mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -2324,7 +2312,7 @@ design rules under a new name.</description>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
-<param name="checkRestrict" value="0"/>
+<param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
 <param name="checkNames" value="1"/>
@@ -2480,47 +2468,47 @@ design rules under a new name.</description>
 <attribute name="NAME" x="40.20693125" y="49.273565625" size="1.27" layer="25" ratio="18" rot="R290"/>
 <attribute name="VALUE" x="42.560425" y="47.793071875" size="0.4064" layer="27" font="vector" ratio="10" rot="R290"/>
 </element>
-<element name="C1" library="adafruit" package="C0603" value="" x="25.654" y="4.826" smashed="yes" rot="R180">
+<element name="C1" library="adafruit" package="C0603" value="0.1uF" x="25.654" y="4.826" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.543" y="4.064" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="26.543" y="6.858" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C2" library="adafruit" package="C0603" value="" x="29.718" y="21.971" smashed="yes" rot="R270">
+<element name="C2" library="adafruit" package="C0603" value="0.1uF" x="29.718" y="21.971" smashed="yes" rot="R270">
 <attribute name="NAME" x="30.3442375" y="17.82241875" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="27.686" y="22.859990625" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C3" library="adafruit" package="C0603" value="" x="12.192" y="26.416" smashed="yes" rot="R231">
+<element name="C3" library="adafruit" package="C0603" value="0.1uF" x="12.192" y="26.416" smashed="yes" rot="R231">
 <attribute name="NAME" x="10.26291875" y="22.918228125" size="1.27" layer="25" rot="R51"/>
 <attribute name="VALUE" x="11.172328125" y="28.385646875" size="1.27" layer="27" rot="R231"/>
 </element>
-<element name="C4" library="adafruit" package="C0603" value="" x="6.35" y="34.798" smashed="yes" rot="R205">
+<element name="C4" library="adafruit" package="C0603" value="0.1uF" x="6.35" y="34.798" smashed="yes" rot="R205">
 <attribute name="NAME" x="2.94029375" y="32.728140625" size="1.27" layer="25" rot="R25"/>
 <attribute name="VALUE" x="6.296984375" y="37.015315625" size="1.27" layer="27" rot="R205"/>
 </element>
-<element name="C5" library="adafruit" package="C0603" value="" x="2.921" y="42.926" smashed="yes">
+<element name="C5" library="adafruit" package="C0603" value="0.1uF" x="2.921" y="42.926" smashed="yes">
 <attribute name="NAME" x="4.6094875" y="42.3675875" size="1.27" layer="25"/>
 <attribute name="VALUE" x="2.031940625" y="40.89396875" size="1.27" layer="27"/>
 </element>
-<element name="C6" library="adafruit" package="C0603" value="" x="5.207" y="53.086" smashed="yes" rot="R80">
+<element name="C6" library="adafruit" package="C0603" value="0.1uF" x="5.207" y="53.086" smashed="yes" rot="R80">
 <attribute name="NAME" x="6.404053125" y="55.064053125" size="1.27" layer="25" rot="R260"/>
 <attribute name="VALUE" x="7.0537625" y="51.857646875" size="1.27" layer="27" rot="R80"/>
 </element>
-<element name="C7" library="adafruit" package="C0603" value="" x="14.605" y="59.309" smashed="yes" rot="R130">
+<element name="C7" library="adafruit" package="C0603" value="0.1uF" x="14.605" y="59.309" smashed="yes" rot="R130">
 <attribute name="NAME" x="11.72080625" y="61.8096375" size="1.27" layer="25" rot="R310"/>
 <attribute name="VALUE" x="16.7331125" y="59.93409375" size="1.27" layer="27" rot="R130"/>
 </element>
-<element name="C8" library="adafruit" package="C0603" value="" x="16.51" y="61.468" smashed="yes" rot="R295">
+<element name="C8" library="adafruit" package="C0603" value="0.1uF" x="16.51" y="61.468" smashed="yes" rot="R295">
 <attribute name="NAME" x="16.6979125" y="59.2937375" size="1.27" layer="25" rot="R295"/>
 <attribute name="VALUE" x="14.292684375" y="61.4149375" size="1.27" layer="27" rot="R295"/>
 </element>
-<element name="C9" library="adafruit" package="C0603" value="" x="35.273759375" y="60.047415625" smashed="yes" rot="R70">
+<element name="C9" library="adafruit" package="C0603" value="0.1uF" x="35.273759375" y="60.047415625" smashed="yes" rot="R70">
 <attribute name="NAME" x="36.13939375" y="64.07270625" size="1.27" layer="25" rot="R250"/>
 <attribute name="VALUE" x="36.879146875" y="58.517021875" size="1.27" layer="27" rot="R70"/>
 </element>
-<element name="C10" library="adafruit" package="C0603" value="" x="43.79189375" y="52.72616875" smashed="yes" rot="R45">
+<element name="C10" library="adafruit" package="C0603" value="0.1uF" x="43.79189375" y="52.72616875" smashed="yes" rot="R45">
 <attribute name="NAME" x="44.64044375" y="54.707559375" size="1.27" layer="25" rot="R315"/>
 <attribute name="VALUE" x="44.6001" y="50.66070625" size="1.27" layer="27" rot="R45"/>
 </element>
-<element name="C11" library="adafruit" package="C0603" value="" x="46.99" y="42.926" smashed="yes">
+<element name="C11" library="adafruit" package="C0603" value="0.1uF" x="46.99" y="42.926" smashed="yes">
 <attribute name="NAME" x="41.91" y="42.037" size="1.27" layer="25"/>
 <attribute name="VALUE" x="46.101" y="40.894" size="1.27" layer="27"/>
 </element>
@@ -2545,35 +2533,35 @@ design rules under a new name.</description>
 <element name="NEO_12" library="adafruit" package="WS2812B" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" value="WS2812B5050" x="46.736" y="38.862" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.0525" y="41.4655" size="0.8128" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="C12" library="adafruit" package="C0603" value="" x="42.164" y="39.497" smashed="yes" rot="R270">
+<element name="C12" library="adafruit" package="C0603" value="0.1uF" x="42.164" y="39.497" smashed="yes" rot="R270">
 <attribute name="NAME" x="40.386" y="40.513" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="40.132" y="40.386" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="NEO_13" library="adafruit" package="WS2812B" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" value="WS2812B5050" x="43.18" y="29.718" smashed="yes" rot="R40">
 <attribute name="NAME" x="38.57595" y="29.7220125" size="0.8128" layer="25" ratio="10" rot="R40"/>
 </element>
-<element name="C13" library="adafruit" package="C0603" value="" x="46.736" y="32.385" smashed="yes" rot="R130">
+<element name="C13" library="adafruit" package="C0603" value="0.1uF" x="46.736" y="32.385" smashed="yes" rot="R130">
 <attribute name="NAME" x="48.755715625" y="32.992159375" size="0.8128" layer="25" rot="R130"/>
 <attribute name="VALUE" x="48.86404375" y="33.010103125" size="1.27" layer="27" rot="R130"/>
 </element>
 <element name="NEO_14" library="adafruit" package="WS2812B" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" value="WS2812B5050" x="35.433" y="22.86" smashed="yes" rot="R30">
 <attribute name="NAME" x="31.930946875" y="24.582834375" size="0.8128" layer="25" ratio="10" rot="R30"/>
 </element>
-<element name="C14" library="adafruit" package="C0603" value="" x="40.64" y="24.257" smashed="yes" rot="R120">
+<element name="C14" library="adafruit" package="C0603" value="0.1uF" x="40.64" y="24.257" smashed="yes" rot="R120">
 <attribute name="NAME" x="40.1705625" y="26.28109375" size="1.27" layer="25" rot="R120"/>
 <attribute name="VALUE" x="42.84423125" y="24.50309375" size="1.27" layer="27" rot="R120"/>
 </element>
 <element name="NEO_15" library="adafruit" package="WS2812B" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" value="WS2812B5050" x="25.654" y="41.91" smashed="yes">
 <attribute name="NAME" x="21.0185" y="44.0055" size="0.8128" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="C15" library="adafruit" package="C0603" value="" x="27.051" y="38.1" smashed="yes" rot="R180">
+<element name="C15" library="adafruit" package="C0603" value="0.1uF" x="27.051" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.273" y="38.735" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="27.94" y="40.132" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="NEO_16" library="adafruit" package="WS2812B" override_package3d_urn="urn:adsk.eagle:package:12850280/2" override_package_urn="urn:adsk.eagle:footprint:12850281/1" value="WS2812B5050" x="25.654" y="75.057" smashed="yes">
 <attribute name="NAME" x="23.5585" y="78.6765" size="0.8128" layer="25" ratio="10"/>
 </element>
-<element name="C16" library="adafruit" package="C0603" value="" x="27.305" y="71.247" smashed="yes" rot="R180">
+<element name="C16" library="adafruit" package="C0603" value="0.1uF" x="27.305" y="71.247" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.527" y="71.501" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="28.194" y="73.279" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -2677,23 +2665,19 @@ design rules under a new name.</description>
 <wire x1="27.305" y1="23.0999625" x2="27.305" y2="24.384" width="0.8128" layer="1"/>
 <via x="27.305" y="24.384" extent="1-16" drill="0.35"/>
 <wire x1="27.305" y1="24.384" x2="27.051" y2="24.13" width="0.8128" layer="16"/>
-<wire x1="27.051" y1="24.13" x2="26.67" y2="24.13" width="0.8128" layer="16"/>
 <wire x1="12.726921875" y1="27.076571875" x2="13.22776875" y2="27.076571875" width="0.8128" layer="1"/>
 <wire x1="13.22776875" y1="27.076571875" x2="14.433478125" y2="25.8708625" width="0.8128" layer="1"/>
 <wire x1="14.433478125" y1="25.8708625" x2="15.232615625" y2="26.67" width="0.8128" layer="1"/>
-<wire x1="15.232615625" y1="26.67" x2="15.24" y2="26.67" width="0.8128" layer="1"/>
 <wire x1="15.232615625" y1="26.67" x2="15.232615625" y2="27.312384375" width="0.8128" layer="1"/>
 <wire x1="15.232615625" y1="27.312384375" x2="14.732" y2="27.813" width="0.8128" layer="1"/>
 <via x="14.732" y="27.813" extent="1-16" drill="0.35"/>
 <wire x1="14.732" y1="27.813" x2="14.859" y2="27.94" width="0.8128" layer="16"/>
-<wire x1="14.859" y1="27.94" x2="15.24" y2="27.94" width="0.8128" layer="16"/>
 <wire x1="8.079990625" y1="33.397771875" x2="8.079990625" y2="34.19759375" width="0.8128" layer="1"/>
 <wire x1="8.079990625" y1="34.19759375" x2="7.120359375" y2="35.157225" width="0.8128" layer="1"/>
 <wire x1="7.120359375" y1="35.157225" x2="7.650134375" y2="35.687" width="0.8128" layer="1"/>
 <wire x1="7.650134375" y1="35.687" x2="8.509" y2="35.687" width="0.8128" layer="1"/>
 <via x="8.509" y="35.687" extent="1-16" drill="0.35"/>
 <wire x1="8.509" y1="35.687" x2="8.763" y2="35.687" width="0.8128" layer="16"/>
-<wire x1="8.763" y1="35.687" x2="8.89" y2="35.56" width="0.8128" layer="16"/>
 <wire x1="2.122" y1="41.02" x2="2.122" y2="42.875" width="0.8128" layer="1"/>
 <wire x1="2.122" y1="42.875" x2="2.071" y2="42.926" width="0.8128" layer="1"/>
 <wire x1="2.071" y1="42.926" x2="2.071" y2="44.411" width="0.8128" layer="1"/>
@@ -2701,14 +2685,12 @@ design rules under a new name.</description>
 <wire x1="2.032" y1="44.45" x2="1.9685" y2="44.3865" width="0.8128" layer="1"/>
 <via x="1.9685" y="44.3865" extent="1-16" drill="0.35"/>
 <wire x1="1.9685" y1="44.3865" x2="2.032" y2="44.45" width="0.8128" layer="16"/>
-<wire x1="2.032" y1="44.45" x2="2.54" y2="44.45" width="0.8128" layer="16"/>
 <wire x1="3.4617375" y1="50.31036875" x2="3.4617375" y2="51.309425" width="0.8128" layer="1"/>
 <wire x1="3.4617375" y1="51.309425" x2="5.059396875" y2="52.2489125" width="0.8128" layer="1"/>
 <wire x1="5.059396875" y1="52.2489125" x2="6.0209125" y2="52.2489125" width="0.8128" layer="1"/>
 <wire x1="6.0209125" y1="52.2489125" x2="6.985" y2="53.213" width="0.8128" layer="1"/>
 <via x="6.985" y="53.213" extent="1-16" drill="0.35"/>
 <wire x1="6.985" y1="53.213" x2="6.477" y2="53.213" width="0.8128" layer="16"/>
-<wire x1="6.477" y1="53.213" x2="6.35" y2="53.34" width="0.8128" layer="16"/>
 <wire x1="16.150771875" y1="62.238359375" x2="17.20459375" y2="62.238359375" width="0.8128" layer="1"/>
 <wire x1="17.20459375" y1="62.238359375" x2="18.037225" y2="63.070990625" width="0.8128" layer="1"/>
 <wire x1="32.9799125" y1="59.96855625" x2="33.69979375" y2="59.248675" width="0.8128" layer="1"/>
@@ -2734,7 +2716,6 @@ design rules under a new name.</description>
 <wire x1="44.8260375" y1="43.815" x2="43.688" y2="43.815" width="0.8128" layer="1"/>
 <via x="43.688" y="43.815" extent="1-16" drill="0.35"/>
 <wire x1="43.688" y1="43.815" x2="43.815" y2="43.815" width="0.8128" layer="16"/>
-<wire x1="43.815" y1="43.815" x2="44.45" y2="43.18" width="0.8128" layer="16"/>
 <contactref element="NEO_12" pad="1-VDD"/>
 <contactref element="C12" pad="1"/>
 <contactref element="NEO_14" pad="1-VDD"/>
